@@ -1,0 +1,73 @@
+.body{
+    background-color: #FE3E57;
+    color: white;
+}
+.container{
+    background-color: #18315A;
+    height: 650px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.n-h1{
+    font-size: 25px;
+}
+.btn1{
+    background-color: #294672;
+    border: 1px solid #FE3E57 ;
+    color: white;
+    font-size: 3px;
+}
+.btn2{
+    background-color: #FE3E57;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    height: 50px;
+    width: 120px;
+}
+.btn3{
+    background-color: #294672;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    height: 50px;
+    width: 120px;
+    /* font-size: 12px; */
+}
+.contact-container {
+    background-color: #132743; /* Navy card background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 40px;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+.form-control {
+    background-color: #1A3A5D; /* Input background */
+    border: none;
+    color: white;
+}
+.form-control:focus {
+    border-color: #FE3E57; /* Focus border color */
+    box-shadow: none;
+}
+.btn-primary {
+    background-color: #FE3E57; /* Button color */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #FF697A;
+}
+h2 {
+    color: #FE3E57; /* Highlighted text */
+}
+#form{
+    margin-top: 30px;
+}
+@media (max-width: 768px){
+    .container{
+        height: 800px;
+    }
+}
